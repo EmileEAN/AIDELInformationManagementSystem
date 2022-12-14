@@ -229,15 +229,15 @@ namespace EEANWorks.WinFormsApps.AIDEL_IMS_Reports.Data
             string username = (_useSavedCredentials) ? SystemDataDictionary["LastLoginUser"] : SharePointConnectionManagerPrerequisites.Username;
             string password = (_useSavedCredentials) ? SystemDataDictionary["Password"] : SharePointConnectionManagerPrerequisites.Password;
 
-            CustomSharePointConnectionManager tmp = new CustomSharePointConnectionManager("https://iberopuebla.sharepoint.com/sites/CentroInterculturaldeLenguas",
-                                                "Documentos",
-                                                "App Data",
+            CustomSharePointConnectionManager tmp = new CustomSharePointConnectionManager("https://######",
+                                                "######",
+                                                "######",
                                                 username + CoreValues.EmailExtension,
                                                 password,
                                                 CoreValues.LocalSaveFilesPath + @"Data\");
 
-            SharePointConnectionManager tmp_evaluationFiles = new SharePointConnectionManager("https://iberopuebla.sharepoint.com/sites/CentroInterculturaldeLenguas",
-                                    "Documentos",
+            SharePointConnectionManager tmp_evaluationFiles = new SharePointConnectionManager("https://######",
+                                    "######",
                                     username + CoreValues.EmailExtension,
                                     password);
 
