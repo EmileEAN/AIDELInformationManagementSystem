@@ -22,11 +22,11 @@ namespace EEANWorks.WinFormsApps.AIDELInformationManagementSystem.Data
 
         private DataContainer()
         {
-            SharePointConnectionManager = new CustomSharePointConnectionManager("https://iberopuebla.sharepoint.com/sites/CentroInterculturaldeLenguas",
-                                                                                "Documentos",
-                                                                                "App Data",
-                                                                                "711943@iberopuebla.mx",
-                                                                                "miki9517");
+            SharePointConnectionManager = new CustomSharePointConnectionManager("https://######",
+                                                                                "######",
+                                                                                "######",
+                                                                                "######@iberopuebla.mx",
+                                                                                "######");
 
             FileNames = new List<string>()
             {
